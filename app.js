@@ -12,7 +12,7 @@ const requestOptions = {
     'convert': 'USD'
   },
   headers: {
-    'X-CMC_PRO_API_KEY': '76aa0192-a4a6-4802-8ef6-a5403a98252a'
+    'X-CMC_PRO_API_KEY': 'chave-api'
   },
   json: true,
   gzip: true
