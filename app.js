@@ -18,7 +18,7 @@ const requestOptions = {
   gzip: true
 };
 
-const PORT = process.env.PORT || 8877;
+const PORT = process.env.PORT
 
 app.get('/',(req,res)=>{
   res.json({
