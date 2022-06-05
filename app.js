@@ -5,7 +5,7 @@ const app = express();
 const rp = require('request-promise');
 const requestOptions = {
   method: 'GET',
-  uri: 'http://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest',
+  uri: 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest',
   qs: {
     'start': '1',
     'limit': '5000',
