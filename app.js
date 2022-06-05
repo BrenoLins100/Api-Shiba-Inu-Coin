@@ -12,13 +12,13 @@ const requestOptions = {
     'convert': 'USD'
   },
   headers: {
-    'X-CMC_PRO_API_KEY': process.env.API_KEY
+    'X-CMC_PRO_API_KEY': toString(process.env.API_KEY),
   },
   json: true,
   gzip: true
 };
 
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 8877;
 
 app.get('/',(req,res)=>{
   res.json({
